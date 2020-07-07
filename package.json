@@ -1,0 +1,14 @@
+{
+  "name": "my-first-blockchain",
+  "version": "1.0.0",
+  "description": "Election App",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amit Sant",
+  "license": "ISC"
+}
