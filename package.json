@@ -1,14 +1,16 @@
 {
-  "name": "my-first-blockchain",
-  "version": "1.0.0",
-  "description": "Election App",
-  "main": "truffle-config.js",
-  "directories": {
-    "test": "test"
-  },
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "Amit Sant",
-  "license": "ISC"
+  "dependencies": {
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "web3": "^1.2.9"
+  }
 }
